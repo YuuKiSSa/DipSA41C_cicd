@@ -50,11 +50,11 @@ jobs:
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Name: \nLu Shuwen"
+                        "text": "*Name:* \nLu Shuwen"
                       },
                       {
                         "type": "mrkdwn",
-                        "text": "\t Metriculation: \nA0286325Y"
+                        "text": "\t *Metriculation:* \nA0286325Y"
                       }
                     ]
                   },
@@ -63,11 +63,11 @@ jobs:
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Email: \ne1241986@u.nus.edu"
+                        "text": "*Email:* \ne1241986@u.nus.edu"
                       },
                       {
                         "type": "mrkdwn",
-                        "text": "\t Repository: \n<https://github.com/YuuKiSSa/DipSA41C_cicd>"
+                        "text": "\t *Repository:* \n<https://github.com/YuuKiSSa/DipSA41C_cicd>"
                       }
                     ]
                   },
@@ -76,7 +76,7 @@ jobs:
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Deployment: \n<https://dipsa41ccicd.up.railway.app/>\n\n<https://dipsa41ccicd.up.railway.app/ |Open Application>"
+                        "text": "*Deployment:* \n<https://dipsa41ccicd.up.railway.app/>\n\n<https://dipsa41ccicd.up.railway.app/ |Open Application>"
                       }
                     ]
                   }
