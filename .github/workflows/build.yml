@@ -43,7 +43,7 @@ jobs:
         with:
           payload: |
               {
-                "text": "Workshop 2 - CICD - Lu Shuwen",
+                "text": "Workshop2 - CICD - Lu Shuwen",
                 "blocks": [
                   {
                     "type": "header",
