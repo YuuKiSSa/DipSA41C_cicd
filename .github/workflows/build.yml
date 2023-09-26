@@ -49,16 +49,38 @@ jobs:
                     "type": "section",
                     "text": {
                       "type": "mrkdwn",
-                      "text": "Submission by: Lu Shuwen, github url: https://xxx"
+                      "text": "Name: \\nLu Shuwen"
                     }
                   },
                   {
                     "type": "section",
-                    "block_id": "section789",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "Metriculation: \\nA0286325Y"
+                    }
+                  },
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "Email: \\ne1241986@u.nus.edu"
+                    }
+                  },
+                  {
+                    "type": "section",
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Github-URL: xxx"
+                        "text": "Repository: \\nhttps://github.com/YuuKiSSa/DipSA41C_cicd"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "section",
+                    "fields": [
+                      {
+                        "type": "mrkdwn",
+                        "text": "Deployment: \\ndipsa41ccicd.up.railway.app \\nOpen Application"
                       }
                     ]
                   }
