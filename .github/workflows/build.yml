@@ -71,7 +71,11 @@ jobs:
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Repository: \nhttps://github.com/YuuKiSSa/DipSA41C_cicd"
+                        "text": "Repository: \n<https://github.com/YuuKiSSa/DipSA41C_cicd>"
+                      },
+                      {
+                        "type": "mrkdwn",
+                        "text": "\t MMM"
                       }
                     ]
                   },
@@ -80,7 +84,7 @@ jobs:
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Deployment: \ndipsa41ccicd.up.railway.app \nOpen Application"
+                        "text": "Deployment: <\ndipsa41ccicd.up.railway.app |\nOpen Application>"
                       }
                     ]
                   }
