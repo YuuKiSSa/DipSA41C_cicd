@@ -41,18 +41,28 @@ jobs:
         uses: slackapi/slack-github-action@v1.24.0
         with:
           payload: 
-            {
-              "text": "Workshop 2 - CICD - Lu Shuwen.",
-              "blocks": [
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "Submission by: Lu Shuwen, github url: https://xxx"
+              {
+                "text": "Workshop 2 - CICD - Lu Shuwen.",
+                "blocks": [
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "Name : Lu Shuwen"
+                    }
+                  },
+                  {
+                    "type": "section",
+                    "block_id": "section789",
+                    "fields": [
+                      {
+                        "type": "mrkdwn",
+                        "text": "Github-URL: xxx"
+                      }
+                    ]
                   }
-                },
-              ]
-            }
+                ]
+              }
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL}}
           SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
