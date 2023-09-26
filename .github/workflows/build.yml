@@ -50,7 +50,7 @@ jobs:
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Lu Shuwen"
+                        "text": "Name: \nLu Shuwen"
                       },
                       {
                         "type": "mrkdwn",
@@ -76,7 +76,7 @@ jobs:
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Deployment: \n<dipsa41ccicd.up.railway.app |Open Application>"
+                        "text": "Deployment: \n<https://dipsa41ccicd.up.railway.app/>\n<https://dipsa41ccicd.up.railway.app/ |Open Application>"
                       }
                     ]
                   }
