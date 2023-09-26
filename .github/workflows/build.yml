@@ -36,19 +36,20 @@ jobs:
         run: railway up
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+
       - name: Send custom JSON data to Slack workflow
         id: slack
         uses: slackapi/slack-github-action@v1.24.0
         with:
-          payload: 
+          payload: |
               {
-                "text": "Workshop 2 - CICD - Lu Shuwen.",
+                "text": "Workshop 2 - CICD - Lu Shuwen",
                 "blocks": [
                   {
                     "type": "section",
                     "text": {
                       "type": "mrkdwn",
-                      "text": "Name : Lu Shuwen"
+                      "text": "Submission by: Lu Shuwen, github url: https://xxx"
                     }
                   },
                   {
