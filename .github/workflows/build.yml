@@ -46,6 +46,16 @@ jobs:
                 "text": "Workshop 2 - CICD - Lu Shuwen",
                 "blocks": [
                   {
+                    "type": "header",
+                    "text": {
+                      "type": "plain_text",
+                      "text": "DipSA41C CI/CD Assignment Submission"
+                    }
+                  },
+                  {
+                    "type": "divider"
+                  },
+                  {
                     "type": "section",
                     "fields": [
                       {
