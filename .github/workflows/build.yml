@@ -47,35 +47,14 @@ jobs:
                 "blocks": [
                   {
                     "type": "section",
-                    "text": {
-                      "type": "mrkdwn",
-                      "text": "Name: \nLu Shuwen"
-                    }
-                  },
-                  {
-                    "type": "section",
-                    "text": {
-                      "type": "mrkdwn",
-                      "text": "Metriculation: \nA0286325Y"
-                    }
-                  },
-                  {
-                    "type": "section",
-                    "text": {
-                      "type": "mrkdwn",
-                      "text": "Email: \ne1241986@u.nus.edu"
-                    }
-                  },
-                  {
-                    "type": "section",
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Repository: \n<https://github.com/YuuKiSSa/DipSA41C_cicd>"
+                        "text": "Lu Shuwen"
                       },
                       {
                         "type": "mrkdwn",
-                        "text": "\t MMM"
+                        "text": "\t Metriculation: \nA0286325Y"
                       }
                     ]
                   },
@@ -84,7 +63,20 @@ jobs:
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Deployment: <\ndipsa41ccicd.up.railway.app |\nOpen Application>"
+                        "text": "Email: \ne1241986@u.nus.edu"
+                      },
+                      {
+                        "type": "mrkdwn",
+                        "text": "\t Repository: \n<https://github.com/YuuKiSSa/DipSA41C_cicd>"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "section",
+                    "fields": [
+                      {
+                        "type": "mrkdwn",
+                        "text": "Deployment: \n<dipsa41ccicd.up.railway.app |Open Application>"
                       }
                     ]
                   }
